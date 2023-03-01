@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+:root{
+    --Yellow: rgb(188, 161, 113);
+    --Blue:   rgb(14, 57, 56);
+    --Berge:  rgb(177, 177, 142); 
+    
+    --Black:  rgb(0, 0, 0);
+    --White:  rgb(255, 255, 255);
+
+    --Text:   rgb(82, 81, 75);
+}
+
+p{
+    color: var(--Text);
+}
+
+.logo{
+    aspect-ratio: 1/1;
+    width: 40%;
+    background-color: var(--Yellow);
+    
+    float: right;
+
+    margin-top: -1%;
+}
+
+.menuBTN{
+    width: 3%;
+    margin-left: 1%;
+    margin-top: 1%;
+
+    position: fixed;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.navWrapper{
+    background-color: var(--Yellow);
+    height: 100vh;
+    width: 0%;
+
+    position: fixed;
+
+    transition: all 0.3s ease;
+}
+
+.navBar{
+    list-style: none;
+}
+
+.NavItem{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: var(--Yellow);
+   
+    color: var(--Blue);
+
+    text-align: center;
+
+    font-size: 140%;
+    font-weight: bolder;
+
+    text-decoration: none;
+
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: 0.3s all ease;
+}
+
+.NavItem:hover{
+    background-color: var(--Blue);
+}
+.NavItem:hover .NavItem:last-child{
+    background-color: var(--Blue);
+    color: var(--Yellow);
+}
+
+a:visited{
+    color: var(--Black);
+}
+a:link{
+    color: var(--Black);
+}
+
+.loginBTN{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    
+    background-color: var(--Yellow);
+    color: var(--Blue);
+
+    font-size: 100%;
+    font-weight: bolder;
+
+    border: 1px solid var(--Blue);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    border-radius: 5px;
+
+    display: none;
+}
+
+.loginBTN:hover{
+    background-color: var(--Blue);
+    color: var(--Yellow);
+}
