@@ -22,6 +22,10 @@ p{
     color: var(--Text);
 }
 
+header{
+    z-index: 99;
+}
+
 .logo{
     aspect-ratio: 1/1;
     width: 40%;
@@ -42,6 +46,7 @@ p{
     cursor: pointer;
 
     transition: all 0.3s ease;
+    z-index: 99;
 }
 
 .navWrapper{
@@ -52,6 +57,8 @@ p{
     position: fixed;
 
     transition: all 0.3s ease;
+
+    z-index: 98;
 }
 
 .navBar{
