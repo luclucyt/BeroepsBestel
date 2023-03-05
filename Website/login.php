@@ -25,38 +25,39 @@
     </header>
 
     <main>
+        <div id="login">
+            <h1 id="header">Log in:</h1>
+            <form action="" method="POST">
+                <label for="nameLogin">Naam:</label>
+                <input type="text" name="nameLogin" id="nameLogin" placeholder="Gebruikersnaam" value="admin" required><br>
+
+                <label for="passwordLogin">Wachtwoord:</label>
+                <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Wachtwoord" value="admin" required><br>
+
+                <input type="submit" value="Log in" id="submitBTN" style="margin-left: -10px;">
+            </form>
+        </div>
+
         <div id="SingUp">
             <h1 id="header">Maak een account:</h1>
             <form action="" method="POST">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" placeholder="Gebruikersnaam"><br>
+                <input type="text" name="name" id="name" placeholder="Gebruikersnaam" required><br>
 
                 <label for="password">Wachtwoord:</label>
-                <input type="password" name="password" id="password" placeholder="Wachtwoord"><br>
+                <input type="password" name="password" id="password" placeholder="Wachtwoord" required><br>
 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Mail"><br>
+                <input type="email" name="email" id="email" placeholder="Mail" required><br>
 
                 <label for="address">Adres:</label>
-                <input type="text" name="address" id="address" placeholder="Address"><br>
+                <input type="text" name="address" id="address" placeholder="Address" required><br>
 
                 <input type="submit" value="Maak het account" id="submitBTN">
             </form>
         </div>
 
-        <div id="login">
-            <h1 id="header">Log in:</h1>
-            <form action="" method="POST">
-                <label for="nameLogin">Naam:</label>
-                <input type="text" name="nameLogin" id="nameLogin" placeholder="Gebruikersnaam" value="admin"><br>
-
-                <label for="passwordLogin">Wachtwoord:</label>
-                <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Wachtwoord" value="admin"><br>
-
-                <input type="submit" value="Log in" id="submitBTN">
-            </form>
-        </div>
-    </main>
+    </main> 
 
             <?php 
             error_reporting(0);

@@ -1,5 +1,5 @@
 :root{
-    --Yellow: rgb(188, 161, 113);
+    --Yellow: rgb(214, 182, 127);
     --Blue:   rgb(14, 57, 56);
     --Berge:  rgb(177, 177, 142); 
     
@@ -8,8 +8,10 @@
 
     --Text:   rgb(82, 81, 75);
 }
+
 body{
-    background-image: url("../../images/login/bg.png");
+    /* background-image: url("../../images/login/bg.png"); */
+    background: linear-gradient(90deg, rgb(25, 103, 103),  rgb(9, 38, 38) 100%);
 }
 main{
     display: flex;
@@ -18,7 +20,7 @@ main{
 }
 
 #login, #SingUp{
-    margin-top: 35vh;
+    margin-top: 37vh;
     width: 20vw;
 
     height: 120px;
@@ -26,25 +28,29 @@ main{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
-    padding-bottom: 6%;
+    padding-bottom: 8%;
     
     border-radius: 10px;
-    background-color: var(--Yellow);
+    background-color: rgb(214, 182, 127);
 
-    box-shadow: 10px 10px 10px -5px var(--Blue);
+    box-shadow: 5px 5px 25px -10px var(--Black);
+}
+
+#header{
+    font-size: larger;
+    padding-bottom: 10%;
 }
 
 #login{
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     margin-top: calc(35vh + 3%);
 }
 
 #submitBTN{
     background-color: var(--Blue);
     color: var(--White);
-
-    position: relative;
-    right: 1%;
+    
+    width: calc(51% + 3px);
 
     margin-top: 2%;
 

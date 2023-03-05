@@ -8,7 +8,7 @@
 }
 
 :root{
-    --Yellow: rgb(188, 161, 113);
+    --Yellow: rgb(214, 182, 127);
     --Blue:   rgb(14, 57, 56);
     --Berge:  rgb(177, 177, 142); 
     
@@ -18,8 +18,9 @@
     --Text:   rgb(82, 81, 75);
 }
 
-p{
+p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, span, div, input, button, textarea, select, option, label, form, header, footer, nav, section, article, aside, main, body, html{
     color: var(--Text);
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
