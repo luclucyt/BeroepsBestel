@@ -24,8 +24,20 @@
     </header>
 
     <main>
-        <div id="ReviewForm"></div>
+
         <div id="reviewWrapper"></div>
+        
+        <div id="reviewForm"><br><br><br><br><br><br><br><br><br><br><br><br>
+            <form action="" method="POST" onload="onload();">
+                <label for="reviewName">Naam:</label>
+                <input type="text" name="reviewName" id="reviewName" required readonly><br>
+
+                <label for="reviewText">Review</label>
+                <textarea name="reviewText" id="reviewText" cols="30" rows="10" required></textarea>
+
+                <input type="submit" value="Verstuur">
+            </form>
+        </div>
     </main>
 
     <footer>
