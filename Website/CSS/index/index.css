@@ -2,6 +2,12 @@ body {
     background-color: #1D3B43;
 }
 
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
 #img_home {
     width: 100vw;
     height: 51.51vh;
