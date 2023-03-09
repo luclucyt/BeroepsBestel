@@ -1,0 +1,13 @@
+<!-- LEAVE THIS ONE HERE, IT WONT STYLE WITHOUT. IDK WHY -->
+<div class="reviewWrapper">
+    <div class="name"><h1>admin:</h1></div>
+    <div class="starWrapper">
+
+    </div>
+    <div class="review">Welkom op de review pagina, waar je reviews kan plaatsen (dit kan alleen als je ingelogd bent) hou de reviews netjes en respectvol. als dit niet het geval is zal je review verwijderd worden. ook zal je account geblokkeerd worden als je dit vaker doet. jullie kunnen er ons op vertrouwen dat we geen reviews verwijderen. :)</div>
+</div>                  
+
+<!-- its safe from here -->
+
+
+

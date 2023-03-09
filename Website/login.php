@@ -17,7 +17,6 @@
     <!-- JS -->
     <script src="JS/_menu/menu.js"></script>
     <script src="JS/login/login.js"></script>
-    <script src="JS/review/review.js"></script>
 </head>
 
 <body>
@@ -118,12 +117,11 @@
 
                             logedin = true;
 
-                            document.cookie = 'naam=' + naam;
-                            
-                            console.log(naam);
-                            console.log(wachtwoord);
-                            console.log(email);
-                            console.log(adres);
+                            document.cookie = 'naam=' + naam + '; email=' + email + '; adres=' + adres + '; logedin=' + logedin + ';'
+                            document.cookie = 'wachtwoord=' + wachtwoord + ';'
+                            document.cookie = 'email=' + email + ';'
+                            document.cookie = 'adres=' + adres + ';'
+                            document.cookie = 'logedin=' + logedin + ';'
                         </script>";
                     }
                 }
