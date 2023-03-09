@@ -11,3 +11,73 @@
 
 
 
+
+<div class="reviewWrapper">
+    <div class="name"><h1>:</h1></div>
+    <div class="starWrapper">
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+    </div>
+    <div class="review">tets</div>
+</div> 
+        
+        
+<div class="reviewWrapper">
+    <div class="name"><h1>:</h1></div>
+    <div class="starWrapper">
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+    </div>
+    <div class="review">tets</div>
+</div> 
+        
+        
+<div class="reviewWrapper">
+    <div class="name"><h1>:</h1></div>
+    <div class="starWrapper">
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+    </div>
+    <div class="review">tets</div>
+</div> 
+        
+        
