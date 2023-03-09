@@ -110,12 +110,8 @@
                         echo "<p id='info'>Inloggen Succesvol, welkom " . $userArray[0] . ".</p><br><br><br>";
                         echo 
                         "<script>
-                            naam = '". $userArray[0] . "'
-                            wachtwoord = '". $userArray[1] . "'
-                            mail = '". $userArray[2] . "'
-                            address = '". $userArray[3] . "'
-                            //alert(naam + ', ' + wachtwoord + ', ' + mail + ', ' + address)
-                            console.log(naam + ', ' + wachtwoord + ', ' + mail + ', ' + address)
+                            naam = 'test';
+                            alert(naam)
                         </script>";
                     }
                 }
