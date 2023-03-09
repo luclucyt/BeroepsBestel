@@ -117,6 +117,8 @@
                             adres = '" . $userArray[3] . "';
 
                             logedin = true;
+
+                            document.cookie = 'naam=' + naam;
                             
                             console.log(naam);
                             console.log(wachtwoord);
