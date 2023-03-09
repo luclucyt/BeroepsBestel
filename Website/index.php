@@ -26,7 +26,7 @@
 
     <main>
        <div>
-        <img id="img_home" src="images/index/bigboi.png" alt="">
+        <img id="img_home" src="images/index/beer.png" alt="">
        </div>
        <div class="kom">
         <h1 class="tekst">KOM NU ETEN</h1>
