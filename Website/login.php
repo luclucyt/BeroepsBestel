@@ -17,6 +17,7 @@
     <!-- JS -->
     <script src="JS/_menu/menu.js"></script>
     <script src="JS/login/login.js"></script>
+    <script src="JS/review/review.js"></script>
 </head>
 
 <body>
@@ -110,8 +111,17 @@
                         echo "<p id='info'>Inloggen Succesvol, welkom " . $userArray[0] . ".</p><br><br><br>";
                         echo 
                         "<script>
-                            naam = 'test';
-                            alert(naam)
+                            naam = '" . $userArray[0] . "';
+                            wachtwoord = '" . $userArray[1] . "';
+                            email = '" . $userArray[2] . "';
+                            adres = '" . $userArray[3] . "';
+
+                            logedin = true;
+                            
+                            console.log(naam);
+                            console.log(wachtwoord);
+                            console.log(email);
+                            console.log(adres);
                         </script>";
                     }
                 }
