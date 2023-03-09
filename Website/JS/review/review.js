@@ -1,3 +1,4 @@
 function onload(){
-    document.getElementById
+    let naam = document.cookie
+    document.getElementById("reviewName").value = naam;
 }
