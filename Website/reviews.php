@@ -24,8 +24,8 @@
     </header>
 
     <main>
-                <!-- Lucas -->
-        <!-- Pagina hierin AUB -->
+        <div id="ReviewForm"></div>
+        <div id="reviewWrapper"></div>
     </main>
 
     <footer>
