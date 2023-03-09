@@ -35,17 +35,17 @@
         
         <div id="reviewForm">
             <h1>Plaats een review:</h1>
-            <form action="" method="POST">
+            <form action="reviews.php" method="POST">
                 <label for="reviewName">Naam:</label><br>
-                <input type="text" name="reviewName" id="reviewName" required readonly><br>
+                <input type="text" name="reviewName" id="reviewName" required onkeydown="return false;"><br>
 
                 <label for="reviewRating">Rating:</label><br>
-                <input type="number" name="reviewRating" id="reviewRating" min="1" max="5" required><br>
+                <input type="number" name="reviewRating" id="reviewRating" min="1" max="5" required value="5"><br>
 
                 <label for="reviewText">Review:</label><br>
-                <textarea name="reviewText" id="reviewText" cols="30" rows="10" required></textarea>
+                <textarea name="reviewText" id="reviewText" cols="30" rows="10" required value="test"></textarea>
 
-                <input type="submit" value="Verstuur" name="reviewForm">
+                <input type="submit" value="Verstuur" name="reviewForm" onsubmit="document.location.href='reviews.php'">
             </form>
         </div>
     </main>

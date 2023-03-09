@@ -11,12 +11,19 @@
 
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     min-height: 400vh;
     background: linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url("../../images/reviews/solid-concrete-wall.jpg");
 }
 
+#reviewsWrapper{
+    width: 70%;
+    margin-left: 1%;}
+
+#reviewForm{
+    width: 30%;
+}
 
 .starWrapper{
     display: flex;
@@ -27,7 +34,9 @@ main{
     margin-left: 7%;
 
     border-radius: 10px;
-}
+} 
+
+
 .star{
     width: 3vw;
     margin: 2%;
@@ -35,14 +44,15 @@ main{
 
 .review{
     width: 60%;
-    margin-left: 10%;
+    min-width: 80%;
+    margin-left: 7%;
     margin-top: 1%;
 
     border-radius: 10px;
     padding: 1%;
 
     background-color: var(--Yellow);
-    color: var(--Text);
+    color: var(--Black);
 }
 
 .name h1{
@@ -63,20 +73,21 @@ main{
     background-color: var(--Yellow);
     height: fit-content;
     margin-top: 10%;
-    margin-right: 2%;
-    width: 50%;
+
+    margin-right: 4%;
+   
     padding: 1%;
     border-radius: 10px;
 }
 #reviewForm label{
-    color: var(--Text);
+    color: var(--Black);
 }
 
 #reviewForm input, #reviewForm textarea{ 
     border-radius: 10px;
     padding: 1%; 
     border: none;
-    color: var(--Text);
+    color: var(--Black);
 } 
 
 #reviewForm h1{
@@ -103,4 +114,4 @@ main{
     width: 90%;
     margin-left: 5%;
     margin-bottom: 5%;
-}
+} 

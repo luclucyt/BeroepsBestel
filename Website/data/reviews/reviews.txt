@@ -1,10 +1,10 @@
 <!-- LEAVE THIS ONE HERE, IT WONT STYLE WITHOUT. IDK WHY -->
 <div class="reviewWrapper">
-    <div class="name"><h1>admin:</h1></div>
+    <div class="name"><h1>Small note:</h1></div>
     <div class="starWrapper">
 
     </div>
-    <div class="review">Welkom op de review pagina, waar je reviews kan plaatsen (dit kan alleen als je ingelogd bent) hou de reviews netjes en respectvol. als dit niet het geval is zal je review verwijderd worden. ook zal je account geblokkeerd worden als je dit vaker doet. jullie kunnen er ons op vertrouwen dat we geen reviews verwijderen. :)</div>
+    <div class="review">Welkom op de review pagina, waar je reviews kan plaatsen (dit kan alleen als je ingelogd bent) hou de reviews netjes en respectvol. als dit niet het geval is zal je review verwijderd worden. ook zal je account geblokkeerd worden als je dit vaker doet. jullie kunnen er ons op vertrouwen dat we geen reviews verwijderen zonder goede rederen. :)</div>
 </div>                  
 
 <!-- its safe from here -->
@@ -12,8 +12,10 @@
 
 
 
+
+       
 <div class="reviewWrapper">
-    <div class="name"><h1>:</h1></div>
+    <div class="name"><h1>Admin:</h1></div>
     <div class="starWrapper">
         <div class="star">
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
@@ -31,12 +33,12 @@
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
         </div>
     </div>
-    <div class="review">tets</div>
+    <div class="review">test</div>
 </div> 
         
         
 <div class="reviewWrapper">
-    <div class="name"><h1>:</h1></div>
+    <div class="name"><h1>Admin:</h1></div>
     <div class="starWrapper">
         <div class="star">
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
@@ -54,12 +56,12 @@
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
         </div>
     </div>
-    <div class="review">tets</div>
+    <div class="review">test</div>
 </div> 
         
         
 <div class="reviewWrapper">
-    <div class="name"><h1>:</h1></div>
+    <div class="name"><h1>Admin:</h1></div>
     <div class="starWrapper">
         <div class="star">
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
@@ -77,7 +79,53 @@
             <img src="images/reviews/Gstar.svg" alt="star" class="star">
         </div>
     </div>
-    <div class="review">tets</div>
+    <div class="review">test</div>
+</div> 
+        
+        
+<div class="reviewWrapper">
+    <div class="name"><h1>Admin:</h1></div>
+    <div class="starWrapper">
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+    </div>
+    <div class="review">test</div>
+</div> 
+        
+        
+<div class="reviewWrapper">
+    <div class="name"><h1>Admin:</h1></div>
+    <div class="starWrapper">
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+        <div class="star">
+            <img src="images/reviews/Gstar.svg" alt="star" class="star">
+        </div>
+    </div>
+    <div class="review">test</div>
 </div> 
         
         
