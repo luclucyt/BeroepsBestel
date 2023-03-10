@@ -37,6 +37,25 @@ header{
     margin-top: -1%;
 }
 
+.menuIconWrapper{
+    transition: all 0.3s ease;
+    margin-left: 0.5%;
+    margin-top: 1%;
+
+    position: fixed;
+
+    cursor: pointer;
+
+    z-index: 99;
+}
+
+.span{
+    background-color: black;
+    width: 45px;
+    height: 5px;
+    margin: 15%;
+}
+
 .menuBTN{
     width: 3%;
     margin-left: 1%;
@@ -68,8 +87,8 @@ header{
 
 .NavItem{
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: var(--Yellow);
    
     color: var(--Blue);
@@ -85,6 +104,9 @@ header{
     cursor: pointer;
 
     transition: 0.3s all ease;
+
+    display: block;
+    height: 50%;
 }
 
 .NavItem:hover{
@@ -131,4 +153,18 @@ a:link{
 .loginBTN:hover{
     background-color: var(--Blue);
     color: var(--Yellow);
+}
+
+
+
+.topspan, .middelspan, .bottomspan{
+    transition: all 0.3s ease;
+    z-index: 99;
+
+    border-radius: 10px;
+    height: 6px;
+}
+
+.middelspan{
+    width: 40px;
 }

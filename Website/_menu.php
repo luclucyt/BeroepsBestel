@@ -1,7 +1,14 @@
 <!-- Menu, DO NOT TOUCH --> 
 
 <header>
-    <img src="images/_menu/openMenu.png" alt="closeMenu" class="menuBTN" onclick="ChangeMenuState();" style="z-index: 99;">
+    <!--<img src="images/_menu/openMenu.png" alt="closeMenu" class="menuBTN" onclick="ChangeMenuState();" style="z-index: 99;">-->
+    
+    <div class="menuIconWrapper" onclick="ChangeMenuState();" style="z-index: 99;">
+        <div class="span topspan"></div>
+        <div class="span middelspan"></div>
+        <div class="span bottomspan"></div>
+    </div>
+
     <nav class="navWrapper">
         <ul class="navBar">
             
