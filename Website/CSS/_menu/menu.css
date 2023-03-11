@@ -25,6 +25,7 @@ p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, span, div, input, button, textarea, se
 
 header{
     z-index: 99;
+    border-right: 1px solid var(--Blue);
 }
 
 .logo{
@@ -39,7 +40,7 @@ header{
 
 .menuIconWrapper{
     transition: all 0.3s ease;
-    margin-left: 0.5%;
+    margin-left: 1%;
     margin-top: 1%;
 
     position: fixed;
@@ -166,5 +167,5 @@ a:link{
 }
 
 .middelspan{
-    width: 40px;
+    width: 40px;   
 }

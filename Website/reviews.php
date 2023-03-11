@@ -37,7 +37,7 @@
             <h1>Plaats een review:</h1>
             <form action="reviews.php" method="POST">
                 <label for="reviewName">Naam:</label><br>
-                <input type="text" name="reviewName" id="reviewName" required onkeydown="return false;"><br>
+                <input type="text" name="reviewName" id="reviewName" required onkeydown="return false;" autocomplete="off"><br>
 
                 <label for="reviewRating">Rating:</label><br>
                 <input type="number" name="reviewRating" id="reviewRating" min="1" max="5" required value="5"><br>

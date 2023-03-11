@@ -16,9 +16,15 @@
 
             <a href="index.php" class="NavItem"><li class="NavItem">Home</li></a>
             <a href="bestel.php" class="NavItem"><li class="NavItem">Bestel</li></a>
+            <a href="eetMenu.php" class="NavItem"><li class="NavItem">Menu</li></a>
             <a href="informatie.php" class="NavItem"><li class="NavItem">Informatie</li></a>
             <a href="reviews.php" class="NavItem"><li class="NavItem">Reviews</li></a>
-            <a href="eetMenu.php" class="NavItem"><li class="NavItem">Menu</li></a>
+            
+            <?php
+                if(isset($_SESSION['admin'])){
+                    echo '<a href="admin.php" class="NavItem"><li class="NavItem">Admin</li></a>';
+                }
+            ?>
         </ul>
         
         <a href="login.php" class="loginBTN">Login</a>

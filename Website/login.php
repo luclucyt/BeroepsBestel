@@ -41,7 +41,7 @@
         <div id="SingUp">
             <h1 id="header">Maak een account:</h1>
             <form action="" method="POST">
-                <label for="name">Name:</label>
+                <label for="name">Naam:</label>
                 <input type="text" name="name" id="name" placeholder="Gebruikersnaam" required><br>
 
                 <label for="password">Wachtwoord:</label>
@@ -61,6 +61,8 @@
 
             <?php 
             error_reporting(0);
+            global $test;
+            $test = "test";
 
             //signup
             if(isset($_POST['name']) && isset($_POST['password']) && isset($_POST['email']) && isset($_POST['address'])){
@@ -110,20 +112,26 @@
                         echo "<p id='info'>Inloggen Succesvol, welkom " . $userArray[0] . ".</p><br><br><br>";
                         echo 
                         "<script>
-                            naam = '" . $userArray[0] . "';
+                            naam = '" .       $userArray[0] . "';
                             wachtwoord = '" . $userArray[1] . "';
-                            email = '" . $userArray[2] . "';
-                            adres = '" . $userArray[3] . "';
+                            email = '" .      $userArray[2] . "';
+                            adres = '" .      $userArray[3] . "';
 
                             logedin = true;
 
-                            document.cookie = 'naam=' + naam + '; email=' + email + '; adres=' + adres + '; logedin=' + logedin + ';'
+                            document.cookie = 'naam=' + naam + ';'
                             document.cookie = 'wachtwoord=' + wachtwoord + ';'
                             document.cookie = 'email=' + email + ';'
                             document.cookie = 'adres=' + adres + ';'
                             document.cookie = 'logedin=' + logedin + ';'
                         </script>";
+
+                        if($nameInput == "admin"){
+                            session_start();
+                            $_SESSION['admin'] = true;
+                        }
                     }
+
                 }
             }
         ?>

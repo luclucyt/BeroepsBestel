@@ -17,13 +17,13 @@ function ChangeMenuState(){
         menuIcon.style.marginTop = "2%";
 
         TopSpan.style.rotate = "45deg";
-        TopSpan.style.marginTop = "45%";
+        TopSpan.style.marginTop = "50%";
         TopSpan.style.height = "4px";
 
         MiddleSpan.style.marginLeft = "-100vh";
 
         BottomSpan.style.rotate = "-45deg";
-        BottomSpan.style.marginTop = "-45%";
+        BottomSpan.style.marginTop = "-50%";
         BottomSpan.style.height = "4px";
 
         LoginBTN.style.display = "block";
@@ -36,7 +36,7 @@ function ChangeMenuState(){
 
 
         menuIcon.style.marginLeft = "1%";
-        menuIcon.style.marginTop = "1%";
+        menuIcon.style.marginTop = "1.5%";
 
         LoginBTN.style.display = "none";
 
@@ -44,7 +44,7 @@ function ChangeMenuState(){
         TopSpan.style.marginTop = "0%";
         TopSpan.style.height = "6px";
 
-        MiddleSpan.style.marginLeft = "10%";
+        MiddleSpan.style.marginLeft = "15%";
 
         BottomSpan.style.rotate = "0deg";
         BottomSpan.style.marginTop = "0%";
