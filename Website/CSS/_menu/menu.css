@@ -25,7 +25,6 @@ p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, span, div, input, button, textarea, se
 
 header{
     z-index: 99;
-    border-right: 1px solid var(--Blue);
 }
 
 .logo{
@@ -80,6 +79,7 @@ header{
     transition: all 0.3s ease;
 
     z-index: 98;
+    border-right: 5px solid var(--Blue);
 }
 
 .navBar{
