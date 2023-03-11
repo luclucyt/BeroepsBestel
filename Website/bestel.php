@@ -12,6 +12,7 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/_menu/menu.css">
+    <link rel="stylesheet" href="CSS/bestel/bestel.css">
     
     <!-- JS -->
     <script src="JS/_menu/menu.js"></script>
@@ -24,8 +25,429 @@
     </header>
 
     <main>
-        <!-- Liam -->
-        <!-- Pagina hierin AUB -->
+        <div id="breakfest">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="lunch">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="dare_to_share">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="voorgerechten">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="burgers">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="vleesgerechten">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="from_the_grill">  
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="visgerechten">
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+            <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="salade">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="desserts">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="kindermenu's">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="loaded_fries_&_bites">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="coffee_treats">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
+        <div id="extra">
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        <div class="item2">
+                <div class="img"></div>
+                <p class="tekst1"></p>
+                <p class="tekst2"></p>
+            </div>
+        </div>
     </main>
 
     <footer>

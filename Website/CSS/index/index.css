@@ -1,5 +1,5 @@
 body {
-    background-color: #1D3B43;
+    background: linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url("../../images/reviews/solid-concrete-wall.jpg");
 }
 
 * {
