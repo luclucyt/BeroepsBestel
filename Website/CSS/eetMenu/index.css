@@ -55,7 +55,7 @@ p {
     margin-top: 2px;
 }
 
-p:hover {
+#restaurants p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
