@@ -27,426 +27,428 @@
     <main>
         <div id="breakfest">
             <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
             </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="lunch">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="dare_to_share">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="voorgerechten">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="burgers">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="vleesgerechten">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="from_the_grill">  
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="visgerechten">
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-            <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="salade">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="desserts">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="kindermenu's">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="loaded_fries_&_bites">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="coffee_treats">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
         <div id="extra">
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
-        <div class="item2">
-                <div class="img"></div>
-                <p class="tekst1"></p>
-                <p class="tekst2"></p>
-            </div>
+            <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
+                <div class="content">
+                    <img class="eten" src="images/bestel/placeholder.png" alt="">
+                    <p class="tekst1">lorum</p>
+                    <p class="tekst2">ipsum</p>
+                </div>
         </div>
     </main>
 
