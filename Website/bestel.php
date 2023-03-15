@@ -25,13 +25,13 @@
     </header>
 
     <main>
+        <div id="breakfest">
             <div class="item2">
                 <div class="content">
                     <img class="eten" src="images/bestel/placeholder.png" alt="">
                     <p class="tekst1">lorum</p>
                     <p class="tekst2">ipsum</p>
                 </div>
-        </div>
     </main>
 
     <footer>
