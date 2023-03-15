@@ -15,6 +15,7 @@ function ChangeMenuState(){
 
         menuIcon.style.marginLeft = "2%";
         menuIcon.style.marginTop = "2%";
+        menu.style.borderRight = "5px solid var(--Blue)";
 
         TopSpan.style.rotate = "45deg";
         TopSpan.style.marginTop = "50%";
@@ -37,6 +38,7 @@ function ChangeMenuState(){
 
         menuIcon.style.marginLeft = "1%";
         menuIcon.style.marginTop = "1.5%";
+        menu.style.borderRight = "0px solid var(--Blue)";
 
         LoginBTN.style.display = "none";
 
