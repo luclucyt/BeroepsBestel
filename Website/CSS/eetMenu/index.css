@@ -4,6 +4,7 @@
 
 main {
     background-color: rgb(254, 212, 75);
+    padding-bottom: 70px;
 }
 
 #menu-img {
@@ -12,11 +13,40 @@ main {
     margin-top: 2%;
 }
 
+#download-button {
+    background-color: rgb(14, 57, 56);
+    color: rgb(214, 182, 127);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-decoration: none;
+}
+
+#download-button:hover {
+    background-color: rgb(38, 104, 81);
+    cursor: pointer;
+}
+
 #notif-banner {
     background-color: rgb(254, 248, 191);
     border-bottom: 1px solid rgb(55, 25, 3);
     border-top: 1px solid rgb(55, 25, 3);
     text-align: center;
+    margin-top: 70px;
+}
+#notif-banner a {
+    font-size: 18px;
+    font-weight: 700;
+}
+#notif-banner a:hover {
+    color: rgb(214, 182, 127);
 }
 #restaurants {
     background-color: white;
@@ -24,8 +54,8 @@ main {
     border-radius: 25px;
     padding: 40px 60px;
     margin-top: 3%;
-    margin-left: 1.5%;
-    margin-right: 1%;
+    margin-left: 3%;
+    margin-right: 3.5%;
     display: flex;
 }
 #eet-restaurants {
@@ -45,6 +75,9 @@ main {
 }
 #bezorg-restaurants {
     margin-left: 10%;
+}
+#bezorg-locaties {
+    margin-top: 7%;
 }
 h1 {
     font-size: 23px;

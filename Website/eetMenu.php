@@ -23,13 +23,13 @@
     <header>
         <?php include '_menu.php'; ?>
     </header>
-
     <main>
         <div>
             <img id="menu-img" src="./images/eetMenu/menu.jpeg" alt="menu">
         </div>
+        <a href="./images/eetMenu/menu.jpeg" download=".images/eetMenu/menu.jpeg" id="download-button">Download menu</a>
         <div id="notif-banner">
-            <p>Krijgt u er honger van? Bestel dan <a href="bestel.php">hier </a> online of kom langs bij een van onze filialen</p>
+            <p>Krijgt u er honger van? Bestel dan <a href="bestel.php">hier</a> online of kom langs bij een van onze filialen</p>
         </div>
         <div id="restaurants">
             <h1>RESTAURANTS</h1>
@@ -91,45 +91,46 @@
             </div>
             <div id="bezorg-restaurants">
                 <h1>BEZORG RESTAURANTS</h1>
-                <p>Alkmaar</p>
-                <p>Almere Buiten</p>
-                <p>Alphen aan den Rijn</p>
-                <p>Amesfoort-Zuid</p>
-                <p>Apeldoorn-West</p>
-                <p>Barendrecht</p>
-                <p>Berkel en Rodenrijs</p>
-                <p>Beverwijk</p>
-                <p>Breda Haagdijk (GESLOTEN)</p>
-                <p>Delft</p>
-                <p>Den Haag - Scheveningen</p>
-                <p>Dordrecht - Zuid</p>
-                <p>Gouda - Blekerssingel</p>
-                <p>Groningen</p>
-                <p>Heerhugowaard</p>
-                <p>Hengelo</p>
-                <p>Katwijk</p>
-                <p>Leiden-Zuid</p>
-                <p>Leidsche Rijn</p>
-                <p>Lelystad</p>
-                <p>Maassluis</p>
-                <p>Oosterhout - Bredaseweg</p>
-                <p>Oud-Beijerland</p>
-                <p>Papendrecht</p>
-                <p>Ridderkerk</p>
-                <p>Rijswijk</p>
-                <p>Rotterdam Alexandrium Kleine Beer</p>
-                <p>Rotterdam-Noord</p>
-                <p>Rotterdam-Zuid</p>
-                <p>Spijkenisse - Hoogvliet</p>
-                <p>Vlaardinge - Schiedam</p>
-                <p>Voorburg</p>
-                <p>Woerden</p>
-                <p>Zoetemeer</p>
-                <p>Zwijndrecht</p>
+                <div id="bezorg-locaties">
+                    <p>Alkmaar</p>
+                    <p>Almere Buiten</p>
+                    <p>Alphen aan den Rijn</p>
+                    <p>Amesfoort-Zuid</p>
+                    <p>Apeldoorn-West</p>
+                    <p>Barendrecht</p>
+                    <p>Berkel en Rodenrijs</p>
+                    <p>Beverwijk</p>
+                    <p>Breda Haagdijk (GESLOTEN)</p>
+                    <p>Delft</p>
+                    <p>Den Haag - Scheveningen</p>
+                    <p>Dordrecht - Zuid</p>
+                    <p>Gouda - Blekerssingel</p>
+                    <p>Groningen</p>
+                    <p>Heerhugowaard</p>
+                    <p>Hengelo</p>
+                    <p>Katwijk</p>
+                    <p>Leiden-Zuid</p>
+                    <p>Leidsche Rijn</p>
+                    <p>Lelystad</p>
+                    <p>Maassluis</p>
+                    <p>Oosterhout - Bredaseweg</p>
+                    <p>Oud-Beijerland</p>
+                    <p>Papendrecht</p>
+                    <p>Ridderkerk</p>
+                    <p>Rijswijk</p>
+                    <p>Rotterdam Alexandrium Kleine Beer</p>
+                    <p>Rotterdam-Noord</p>
+                    <p>Rotterdam-Zuid</p>
+                    <p>Spijkenisse - Hoogvliet</p>
+                    <p>Vlaardinge - Schiedam</p>
+                    <p>Voorburg</p>
+                    <p>Woerden</p>
+                    <p>Zoetemeer</p>
+                    <p>Zwijndrecht</p>
+                </div>
             </div>
         </div>
     </main>
-
     <footer>
         <?php //include '_footer.php'; ?>
     </footer>
