@@ -6,3 +6,34 @@ main {
 }
 
 
+.eten {
+    width: 7vw;
+    height: 8vh;
+    margin-left: 18vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: var(--Yellow);
+    color: var(--Black);
+    border-radius: 10px;
+}
+
+.tekst1 {
+    width: 20vw;
+    height: 4.5;
+    margin-left: 27vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: var(--Yellow);
+    color: var(--Black);
+}
+
+.tekst2 {
+    width: 15vw;
+    height: 3.5;
+    margin-left: 27vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: var(--Yellow);
+    color: var(--Black);
+}
+
