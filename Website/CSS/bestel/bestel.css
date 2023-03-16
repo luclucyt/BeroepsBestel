@@ -1,15 +1,18 @@
 main {
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
 
-    background: linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url("../../images/reviews/solid-concrete-wall.jpg");
+
 }
 
+.content {
+    padding-top: 3vh;
+}
 
 .eten {
-    width: 7vw;
-    height: 8vh;
-    margin-left: 18vw;
+    width: 10vw;
+    height: 11vh;
+    margin-left: 15vw;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     background-color: var(--Yellow);
@@ -20,9 +23,7 @@ main {
 .tekst1 {
     width: 20vw;
     height: 4.5;
-    margin-left: 27vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    
     background-color: var(--Yellow);
     color: var(--Black);
 }
@@ -30,10 +31,29 @@ main {
 .tekst2 {
     width: 15vw;
     height: 3.5;
+    background-color: var(--Yellow);
+    color: var(--Black);
+}
+
+.tekst1, .tekst2, .prijs {
     margin-left: 27vw;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
-    background-color: var(--Yellow);
-    color: var(--Black);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.prijs{
+    margin-top: -8.3vh;
+}
+
+
+.add {
+    margin-left: 10vw;
+    margin-top: -3.5vh;
+}
+
+.textWrapper {
+    margin-top: -16vh;
 }
 
