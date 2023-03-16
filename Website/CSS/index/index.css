@@ -1,0 +1,57 @@
+body {
+    background: url("../../images/reviews/solid-concrete-wall.jpg");
+    overflow-x: hidden;
+}
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+#img_home {
+    width: 100vw;
+}
+
+.kom {
+    margin: 0;
+    width: 100%;
+    height: 125px;
+    background-color: #D6B67F;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.tekst {
+    padding-top: 7vh;
+    font-size: 4rem;
+}
+
+.box1 {
+    float: left;
+    width: 40vw;
+    height: 30vh;
+    margin-left: 5vw;
+    background-color: #D6B67F;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+}
+
+.box2 {
+    float: right;
+    width: 40vw;
+    height: 30vh;
+    margin-right: 5vw;
+    background-color: #D6B67F;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+}
+
+.tekst1 {
+    text-align: center;
+}
+
+.tekst2 {
+    text-align: center;
+}

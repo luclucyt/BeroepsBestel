@@ -25,7 +25,22 @@
     </header>
 
     <main>
-      
+       <div>
+        <img id="img_home" src="images/bestel/placeholder.png" alt="">
+       </div>
+       <div class="kom">
+        <h1 class="tekst">BESTEL HIERZO</h1>
+       </div>
+       <div class="box1">
+        <p class="tekst1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet leo sit amet quam posuere finibus. Nulla cursus mi a ultrices consequat. In luctus at nibh quis varius. Etiam eget posuere neque. Pellentesque id tempus metus. Nullam at urna orci. Praesent ac risus aliquet, rutrum justo vitae, eleifend sem. Proin laoreet eu erat a mollis. Nunc varius egestas quam, ac sodales quam venenatis sit amet. Donec cursus gravida mi. Ut et mauris scelerisque magna faucibus pulvinar placerat in nisl. Etiam accumsan lorem felis, a iaculis erat volutpat a. Pellentesque fermentum nulla ut ligula dapibus, eget varius ligula facilisis.
+        </p>
+       </div>
+       <div class="box2">
+        <p class="tekst2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet leo sit amet quam posuere finibus. Nulla cursus mi a ultrices consequat. In luctus at nibh quis varius. Etiam eget posuere neque. Pellentesque id tempus metus. Nullam at urna orci. Praesent ac risus aliquet, rutrum justo vitae, eleifend sem. Proin laoreet eu erat a mollis. Nunc varius egestas quam, ac sodales quam venenatis sit amet. Donec cursus gravida mi. Ut et mauris scelerisque magna faucibus pulvinar placerat in nisl. Etiam accumsan lorem felis, a iaculis erat volutpat a. Pellentesque fermentum nulla ut ligula dapibus, eget varius ligula facilisis.
+        </p>
+       </div>
     </main>
 
     <footer>
