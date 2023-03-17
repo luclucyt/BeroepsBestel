@@ -14,7 +14,7 @@
             
             <img src="images/_menu/logo.png" alt="logo" class="logo">
 
-            <a href="index.php" class="NavItem"><li class="NavItem">Home</li></a>
+            <a href="home.php" class="NavItem"><li class="NavItem">Home</li></a>
             <a href="bestel.php" class="NavItem"><li class="NavItem">Bestel</li></a>
             <a href="eetMenu.php" class="NavItem"><li class="NavItem">Menu</li></a>
             <a href="informatie.php" class="NavItem"><li class="NavItem">Informatie</li></a>

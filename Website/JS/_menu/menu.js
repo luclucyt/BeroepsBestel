@@ -27,6 +27,10 @@ function ChangeMenuState(){
         BottomSpan.style.marginTop = "-50%";
         BottomSpan.style.height = "4px";
 
+        TopSpan.style.backgroundColor = "var(--Blue)";
+        MiddleSpan.style.backgroundColor = "var(--Blue)";
+        BottomSpan.style.backgroundColor = "var(--Blue)";
+
         LoginBTN.style.display = "block";
 
         isOpen = 1;
@@ -46,11 +50,15 @@ function ChangeMenuState(){
         TopSpan.style.marginTop = "0%";
         TopSpan.style.height = "6px";
 
-        MiddleSpan.style.marginLeft = "15%";
+        MiddleSpan.style.marginLeft = "11%";
 
         BottomSpan.style.rotate = "0deg";
         BottomSpan.style.marginTop = "0%";
         BottomSpan.style.height = "6px";
+
+        TopSpan.style.backgroundColor = "var(--White)";
+        MiddleSpan.style.backgroundColor = "var(--White)";
+        BottomSpan.style.backgroundColor = "var(--White)";
 
         isOpen = 0;
     }
