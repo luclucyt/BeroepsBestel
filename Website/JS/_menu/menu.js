@@ -1,4 +1,5 @@
 let isOpen = 0;
+
 function ChangeMenuState(){
     let menu = document.getElementsByClassName("navWrapper")[0];
     let menuIcon = document.getElementsByClassName("menuIconWrapper")[0];
@@ -7,6 +8,8 @@ function ChangeMenuState(){
     let TopSpan = document.getElementsByClassName("topspan")[0];
     let MiddleSpan = document.getElementsByClassName("middelspan")[0];
     let BottomSpan = document.getElementsByClassName("bottomspan")[0];
+
+    
     
     if(isOpen == 0){ 
         //NOT OPEN so we open it
@@ -32,6 +35,7 @@ function ChangeMenuState(){
         BottomSpan.style.backgroundColor = "var(--Blue)";
 
         LoginBTN.style.display = "block";
+        darkmodeSwitch.style.display = "block";
 
         isOpen = 1;
     }else{
@@ -45,6 +49,7 @@ function ChangeMenuState(){
         menu.style.borderRight = "0px solid var(--Blue)";
 
         LoginBTN.style.display = "none";
+        darkmodeSwitch.style.display = "none";
 
         TopSpan.style.rotate = "0deg";
         TopSpan.style.marginTop = "0%";

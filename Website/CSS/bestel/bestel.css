@@ -1,8 +1,10 @@
+body{
+    background-image: url("../../images/_menu/lightMode.png");
+}
 main {
     min-height: 100vh;
     min-width: 100vw;
 
-    background-image: url("../../images/login/bg.png");
 }
 
 

@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="CSS/review/review.css">
     
     <!-- JS -->
-    <script src="JS/_menu/menu.js"></script>
+    <script src="JS/_menu/menu.js" defer></script>
+    <script src="JS/_menu/darkmode.js" defer></script>
     <script src="JS/login/login.js" ></script>
     <script src="JS/review/review.js" defer></script>
 </head>
 
-<body>
+<body id="body">
     <header>
         <?php include '_menu.php'; ?>
     </header>

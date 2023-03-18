@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url("../../images/login/bg.png"); 
+    background-image: url("images/_menu/lightMode.png"); 
 }
 
 main{
@@ -46,7 +46,7 @@ main{
     margin-top: calc(35vh + 3%);
 }
 
-#submitBTN{
+.submitBTN{
     background-color: var(--Blue);
     color: var(--White);
     
@@ -59,7 +59,7 @@ main{
     transition: 0.3s all ease-in-out;
 }
 
-#submitBTN:hover{
+.submitBTN:hover{
     background-color: rgb(9, 38, 38);
 }
 

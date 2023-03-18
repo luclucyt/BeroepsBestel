@@ -1,0 +1,8 @@
+#body{
+    background-image: url("../../images/_menu/lightMode.png");
+}
+
+main{
+    /*verwijder als er iets in de main staat*/
+    padding-top: 1px;
+}

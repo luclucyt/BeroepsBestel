@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="CSS/index/index.css">
 
     <!-- JS -->
-    <script src="JS/_menu/menu.js"></script>
-    <script src="JS/login/login.js"></script>
+    <script src="JS/_menu/menu.js" defer></script>
+    <script src="JS/_menu/darkmode.js" defer></script>
+    <script src="JS/login/login.js" defer></script>
+    <script src="JS/index/index.js" defer></script>
 </head>
 
-<body>
+<body id="body">
     <header>
         <?php include '_menu.php'; ?>
     </header>
@@ -72,6 +74,26 @@
                 </div>
             </a>
 
+        </div>
+
+
+        <div id="bottomSubHeaderWrapper">
+            <a href="informatie.php" class="bottomSubHeaderWrapper">
+                <img src="images/index/subHeader4.jpg" class="subHeaderImg">
+                <div class="subHeaderText bottomSubHeaderText">
+                    <br><h1 class="subHeaderTextH1">Bekijk onze restaurants</h1>
+                    <p class="subHeaderTextP">
+                        Welkom bij ons restaurant! Geniet van onze smaakvolle gerechten, bereid met verse en seizoensgebonden ingrediënten. Bekijk ons menu en reserveer uw tafel eenvoudig via de knop hieronder. Ons vriendelijke en professionele team staat voor u klaar om u te bedienen en uw bezoek zo aangenaam mogelijk te maken. Of u nu komt voor een romantisch diner, een gezellig etentje met vrienden of familie, of een zakelijke bijeenkomst, ons restaurant biedt de perfecte ambiance voor elke gelegenheid.
+
+                        Wij zijn trots op onze uitstekende service en aandacht voor detail. Ons personeel is attent en blij om u te helpen bij speciale verzoeken of dieetwensen. Bij ons vindt u een breed scala aan gerechten, van klassieke favorieten tot innovatieve creaties, voor elk wat wils.
+
+                        Kom snel bij ons langs en laat ons u verwennen met onze heerlijke gerechten en uitstekende service. Of het nu voor een snelle lunch of een uitgebreid diner is, ons restaurant biedt voor ieder wat wils. Wij kijken ernaar uit u te verwelkomen en u een onvergetelijke culinaire ervaring te bieden.
+
+                    </p><br>
+
+                    <p href="informatie.php" class="subHeaderLink">Druk hier voor alle informatie.</p>
+                </div>
+            </a>
         </div>
     <footer>
         <?php //include '_footer.php';  ?>

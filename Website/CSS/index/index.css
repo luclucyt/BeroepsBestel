@@ -3,6 +3,7 @@ html{
 }
 body {
     background-image: url("../../images/login/bg.png");
+    transition: all 0.3s ease;
 
     overflow-x: hidden;
 }
@@ -69,12 +70,27 @@ body {
     width: 100vw;
 
     justify-content: center;
-    overflow-x: hidden;
 }
 
 .subHeaderWrapper{
     width: 25vw;
     margin: 10px;
+    margin-top: 15px;
+    transform: scale(1.0);
+
+    transition: all 0.3s ease-in-out ;
+}
+
+.subHeaderWrapper:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.subHeaderWrapper:hover .subHeaderText{
+    background-color: rgb(190, 161, 111);
+    transition: all 0.3s ease-in-out;
 }
 
 .subHeaderImg{
@@ -110,4 +126,37 @@ body {
 
 a:link {
     text-decoration: none;
+}
+
+#bottomSubHeaderWrapper{
+    display: flex;
+    width: 100vw;
+
+    justify-content: center;    
+    margin-top: -0x;
+}
+
+.bottomSubHeaderWrapper{
+    width: 77vw;
+    margin: 10px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.BottomSubHeaderImg{
+    margin-top: -100px;
+
+    border-radius: 10%;
+}
+
+.bottomSubHeaderWrapper:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.bottomSubHeaderWrapper:hover .bottomSubHeaderText{
+    background-color: rgb(190, 161, 111);
+    transition: all 0.3s ease-in-out;
 }

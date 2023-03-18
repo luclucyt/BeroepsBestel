@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="CSS/eetMenu/index.css">
     
     <!-- JS -->
-    <script src="JS/_menu/menu.js"></script>
+    <script src="JS/_menu/menu.js" defer></script>
     <script src="JS/login/login.js"></script>
 </head>
 
-<body>
+<body id="body">
     <header>
         <?php include '_menu.php'; ?>
     </header>

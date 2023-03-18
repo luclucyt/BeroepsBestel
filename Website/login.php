@@ -11,15 +11,16 @@
     <title>De Beren || Login</title>
     
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/_menu/menu.css">
+    <link rel="stylesheet" href="CSS/_menu/menu.css" defer>
     <link rel="stylesheet" href="CSS/login/login.css">
     
     <!-- JS -->
-    <script src="JS/_menu/menu.js"></script>
+    <script src="JS/_menu/menu.js" defer></script>
+    <script src="JS/_menu/darkmode.js" defer></script>
     <script src="JS/login/login.js"></script>
 </head>
 
-<body>
+<body id="body">
     <header>
         <?php include '_menu.php'; ?>
     </header>
@@ -34,7 +35,7 @@
                 <label for="passwordLogin">Wachtwoord:</label>
                 <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Wachtwoord" value="admin" required><br>
 
-                <input type="submit" value="Log in" id="submitBTN" style="margin-left: -10px;">
+                <input type="submit" value="Log in" class="submitBTN" style="margin-left: -10px;">
             </form>
         </div>
 
@@ -53,7 +54,7 @@
                 <label for="address">Adres:</label>
                 <input type="text" name="address" id="address" placeholder="Address" required><br>
 
-                <input type="submit" value="Maak het account" id="submitBTN">
+                <input type="submit" value="Maak het account" class="submitBTN">
             </form>
         </div>
 
@@ -109,14 +110,16 @@
                     $userArray = explode("||", $userLine);
 
                     if($userArray[0] == $nameInput && $userArray[1] == $passwordInput){
-                        echo "<p id='info'>Inloggen Succesvol, welkom " . $userArray[0] . ".</p><br><br><br>";
+                        echo "<p id='info'>Inloggen Succesvol, welkom {$userArray[0]} </p><br><br><br>";
                         echo 
                         "<script>
-                            naam = '" .       $userArray[0] . "';
-                            wachtwoord = '" . $userArray[1] . "';
-                            email = '" .      $userArray[2] . "';
-                            adres = '" .      $userArray[3] . "';
 
+                            naam = '{$userArray[0]}';
+                            wachtwoord = '{$userArray[1]}';
+                            email = '{$userArray[2]}';
+                            adres = '{$userArray[3]}';
+                            logedin = true;
+                            
                             logedin = true;
 
                             document.cookie = 'naam=' + naam + ';'
@@ -124,6 +127,7 @@
                             document.cookie = 'email=' + email + ';'
                             document.cookie = 'adres=' + adres + ';'
                             document.cookie = 'logedin=' + logedin + ';'
+                            alert(document.cookie)
                         </script>";
 
                         if($nameInput == "admin"){
