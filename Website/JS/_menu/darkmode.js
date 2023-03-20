@@ -7,7 +7,8 @@ let darkModeCookie = cookieArray.find(cookie => cookie.includes("darkmode"));
 
 if(darkModeCookie == undefined){
     //no cookie found so we create one  
-    document.cookie = "darkmode=" + true + ";path=/";
+    document.cookie = "darkmode=" + true + " expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+    window.location.reload();
 }
 
 
@@ -15,7 +16,7 @@ function changeDarkMode(){
     
     if(darkModeCookie.includes("true")){
         //darkmode is on so we change it to lightmode 
-        document.cookie = "darkmode=" + false + ";path=/";
+        document.cookie = "darkmode=" + false + " expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
         darkmodeSwitch.checked = false;
 
         window.location.reload();
@@ -27,7 +28,7 @@ function changeDarkMode(){
     }
     else if(darkModeCookie.includes("false")){
         //lightmode is on so we change it to darkmode   
-        document.cookie = "darkmode=" + true + ";path=/";
+        document.cookie = "darkmode=" + true + " expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
         darkmodeSwitch.checked = true;
 
         window.location.reload();
@@ -59,4 +60,4 @@ function checkOnLoad(){
 }
 
 //darkmode: "linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url('../../images/reviews/solid-concrete-wall.jpg')"
-//lightmode: "url('images/_menu/lightMode.png')"
+//lightmode: "url('images/_menu/lightMode.png')"```
