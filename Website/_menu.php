@@ -28,7 +28,9 @@
         </ul>
         
         <a href="login.php" class="loginBTN">Login</a>
-        <label for="darkmodeSwitch" class="darkmodeSwitchLabel">IF checked dark mode is on</label>
-        <input type="checkbox" class="darkmodeSwitch" name="darkmodeSwitch" onclick="changeDarkMode()"> 
+        <div class="darkmodeSwitchWrapper" onclick="changeDarkMode()">
+            <label for="darkmodeSwitch" class="darkmodeSwitchLabel">Darkmode:</label>
+            <input type="checkbox" class="darkmodeSwitch" name="darkmodeSwitch" onclick="changeDarkMode()"> 
+        </div>
     </nav>
 </header>

@@ -1,9 +1,29 @@
 let isOpen = 0;
+let darkmode;
+
+let cookieArray1 = document.cookie.split(";");
+let darkModeCookie1 = cookieArray1.find(cookie => cookie.includes("darkmode"));
+
+
+if(darkModeCookie1.includes("true")){
+    darkmode = true;
+
+}
+else{
+    darkmode = false;
+}
+
+//call it 2 times to make the color correct acording to the darkmode, if not it will be white until its opend, and im to lazy to fix it
+//so deal with it :D 
+ChangeMenuState();
+ChangeMenuState();
 
 function ChangeMenuState(){
+
     let menu = document.getElementsByClassName("navWrapper")[0];
     let menuIcon = document.getElementsByClassName("menuIconWrapper")[0];
     let LoginBTN = document.getElementsByClassName("loginBTN")[0];
+    let darkmodeBtn = document.getElementsByClassName("darkmodeSwitchWrapper")[0];
 
     let TopSpan = document.getElementsByClassName("topspan")[0];
     let MiddleSpan = document.getElementsByClassName("middelspan")[0];
@@ -35,7 +55,7 @@ function ChangeMenuState(){
         BottomSpan.style.backgroundColor = "var(--Blue)";
 
         LoginBTN.style.display = "block";
-        darkmodeSwitch.style.display = "block";
+        darkmodeBtn.style.display = "block";
 
         isOpen = 1;
     }else{
@@ -49,7 +69,7 @@ function ChangeMenuState(){
         menu.style.borderRight = "0px solid var(--Blue)";
 
         LoginBTN.style.display = "none";
-        darkmodeSwitch.style.display = "none";
+        darkmodeBtn.style.display = "none";
 
         TopSpan.style.rotate = "0deg";
         TopSpan.style.marginTop = "0%";
@@ -61,9 +81,19 @@ function ChangeMenuState(){
         BottomSpan.style.marginTop = "0%";
         BottomSpan.style.height = "6px";
 
-        TopSpan.style.backgroundColor = "var(--White)";
-        MiddleSpan.style.backgroundColor = "var(--White)";
-        BottomSpan.style.backgroundColor = "var(--White)";
+        if(darkmode == true){
+            TopSpan.style.backgroundColor = "var(--Blue)";
+            MiddleSpan.style.backgroundColor = "var(--Blue)";
+            BottomSpan.style.backgroundColor = "var(--Blue)";
+
+            console.log("darkmode is true, so the menu is dark");
+        } else if(darkmode == false){
+            TopSpan.style.backgroundColor = "var(--White)";
+            MiddleSpan.style.backgroundColor = "var(--White)";
+            BottomSpan.style.backgroundColor = "var(--White)";
+
+            console.log("darkmode is false, so the menu is light");
+        }
 
         isOpen = 0;
     }

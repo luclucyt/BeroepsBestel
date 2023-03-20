@@ -1,0 +1,90 @@
+#headerWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#headerimg{
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+#titelWrapper{
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--Yellow);
+    
+    border-top: 1px solid var(--Black);
+    border-bottom: 1px solid var(--Black);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 10px;
+}
+
+#titel a{
+    color: var(--Text);
+}
+
+
+#subHeaderWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+#resturantsWrapper, #bestelOnlineInfoWrapper{
+    height: fit-content;
+
+    background-color: var(--Yellow);
+    border: 1px solid var(--Blue);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#resturantsWrapper{
+    width: 55%;
+}
+#bestelOnlineInfoWrapper{
+    width: 35%;
+}
+
+#resturantsList{
+    width: 160%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+#bezoringList{
+    width: 160%;
+    margin-left: 19%;
+}
+
+#resturantsWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#NormaalResturantsWrapper{
+    width: 30%;
+}
+#bezorgsResturantsWrapper{
+    width: 35%;
+}
+
+#bestelPageBtn{
+    background-color: var(--Blue);
+    color:  var(--White);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 1%;
+    border: 1px solid var(--Blue);
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#bestelPageBtn:hover{
+    background-color: rgb(9, 38, 38);
+}

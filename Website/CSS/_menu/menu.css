@@ -174,3 +174,50 @@ a:link{
 .middelspan{
     width: 35px;
 }
+
+
+.darkmodeSwitchWrapper{
+    display: none;
+    border: 1px solid var(--Black);
+    color: black;
+    width: fit-content;
+    height: 25px;
+    overflow: hidden;
+
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    position: absolute;
+    bottom: 1%;
+    left: 67%;
+
+
+    background-color: var(--Yellow);
+    color: var(--Blue);
+
+    font-size: 100%;
+    font-weight: bolder;
+
+    border: 1px solid var(--Blue);
+
+    transition: all 0.3s ease;
+
+    border-radius: 5px;
+}
+
+.darkmodeSwitchWrapper label{
+    cursor: pointer;
+    border-color: var(--Black);
+    color: var(--Black);
+}
+
+.darkmodeSwitchWrapper:hover{
+    background-color: var(--Blue);
+}
+
+.darkmodeSwitchWrapper:hover label{
+    color: var(--Yellow);
+}
