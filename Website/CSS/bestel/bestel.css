@@ -33,7 +33,6 @@ main {
 
 .tekst2 {
     width: 15vw;
-    height: 3.5;
     background-color: var(--Yellow);
     color: var(--Black);
 }
@@ -47,13 +46,17 @@ main {
 }
 
 .prijs{
-    margin-top: -7.1vh;
+    margin-top: -57px;
 }
 
-
 .add {
-    margin-left: 40vw;
-    margin-top: -6.3vh;
+    height: 4vh;
+    border: none;
+    width: 134px;
+    margin-left: 35vw;
+    border-radius: 0px 10px 10px 0px !important;
+    margin-top: -61.4px;
+    position: absolute;
 }
 
 .textWrapper {
