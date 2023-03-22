@@ -7,6 +7,14 @@
     line-height: 24px;
 }
 
+.darkmode{
+    background: linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url('../../images/reviews/solid-concrete-wall.jpg');
+}
+
+.lightmode{
+    background-image: url('../../images/_menu/lightMode.png');
+}
+
 :root{
     --Yellow: rgb(214, 182, 127);
     --Blue:   rgb(14, 57, 56);

@@ -29,7 +29,7 @@
 
     <main>
         <div id="thumbnailWrapper" onclick="window.location = 'bestel.php'">
-            <img id="thumbnail" src="images/index/Header1.jpg" alt="">
+            <img id="thumbnail" alt="">
         </div>
 
         <div id="bestelBtnWrapper">
@@ -39,14 +39,14 @@
         <div id="subHeaderWrapper">
 
             <!---menu-->
-            <a href="eetMenu.php" class="subHeaderWrapper">
+            <a href="bestel.php" class="subHeaderWrapper">
                 <img src="images/index/subHeader1.jpg" class="subHeaderImg">
                 <div class="subHeaderText">
                     <h1 class="subHeaderTextH1">Bekijk ons menu</h1>
                     <p class="subHeaderTextP">
                         Ga jij voor de klassiekers, zoals carpaccio, saté en een dame blanche? Of ga je voor vegetarische opties, zoals geitenkaas kroketjes en een red carrot burger? De keuze is reuze! Je kunt kiezen uit vier verschillende voorgerechten, vijf verschillende hoofgerechten en drie verschillende desserts.
                     </p><br>
-                    <p href="eetmenu.php" class="subHeaderLink">Bekijk het hele menu!</p>
+                    <p href="bestel.php" class="subHeaderLink">Bekijk het hele menu!</p>
                 </div>
             </a>
 

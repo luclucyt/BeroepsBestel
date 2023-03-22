@@ -21,7 +21,8 @@ function changeDarkMode(){
 
         window.location.reload();
 
-        body.style.backgroundImage = "url('images/_menu/lightMode.png')";
+        body.classList.add("lightmode");
+        //body.style.background = "url('images/_menu/lightMode.png')";
         
 
         console.log("darkmode is off");
@@ -33,7 +34,8 @@ function changeDarkMode(){
 
         window.location.reload();
 
-        body.style.backgroundImage = "linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url('../../images/reviews/solid-concrete-wall.jpg')";
+        body.classList.add("darkmode");
+        //body.style.background = "linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url('../../images/reviews/solid-concrete-wall.jpg')";
         
 
         console.log("darkmode is on");
@@ -45,16 +47,18 @@ checkOnLoad();
 function checkOnLoad(){
     if(darkModeCookie.includes("true")){
         //darkmode is on so we change it to lightmode
-        body.style.backgroundImage = "url('images/_menu/lightMode.png')";
+
+        //body.style.backgroundImage = "url('images/_menu/lightMode.png')";
         darkmodeSwitch.checked = false;
 
+        body.classList.add("lightmode");
         console.log("darkmode is off");
     }
     else if(darkModeCookie.includes("false")){
         //lightmode is on so we change it to darkmode
-        body.style.backgroundImage = "linear-gradient(90deg, rgba(25, 103, 103, 0.8),  rgba(3, 21, 21, 0.9) 100%), url('../../images/reviews/solid-concrete-wall.jpg')";
         darkmodeSwitch.checked = true;
 
+        body.classList.add("darkmode");
         console.log("darkmode is on");
     }
 }
