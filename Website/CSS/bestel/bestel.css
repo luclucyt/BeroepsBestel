@@ -50,14 +50,23 @@ main {
 }
 
 .add {
-    height: 4vh;
+    height: calc(4vh + 2px);
     border: none;
     width: 134px;
     margin-left: 35vw;
     border-radius: 0px 10px 10px 0px !important;
-    margin-top: -61.4px;
+    margin-top: -62px;
     position: absolute;
+    background-color: var(--Yellow);
+    border-left: 1px solid var(--Blue);
+    transition: all 0.3s ease-in;
 }
+.add:hover {
+    background-color: var(--Blue);
+    color: var(--Yellow);
+}
+
+
 
 .textWrapper {
     margin-top: -16vh;
