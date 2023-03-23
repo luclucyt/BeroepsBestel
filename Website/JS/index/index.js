@@ -7,27 +7,27 @@ let bottomspan = document.getElementsByClassName('span')[2];
 
 let headerImgWidth = headerImg.clientHeight-20;
 
-
-let darkmode;
+let darkMenu;
 
 if(darkModeCookie.includes("true")){
-    darkmode = true;
+    darkMenu = true;
     console.log(darkModeCookie);
     console.log("menu shoud be: true, altus dark");
-    console.log(darkmode);
+    console.log(darkMenu);
     console.log("");
 
 }
 else{
-    darkmode = false;
+    darkMenu = false;
     console.log(darkModeCookie);
     console.log("darkmenu = true");
-    console.log(darkmode);
+    console.log(darkMenu);
     console.log("");
 }
 
-if(darkmode == true){
-    console.log("darkmode is on, althus menu is white");
+if(darkMenu == false){
+    console.log("darkMenu is on, althus menu is white");
+
     addEventListener("scroll", function(){
 
         if(this.window.scrollY > headerImgWidth){
