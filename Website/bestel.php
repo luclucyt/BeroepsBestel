@@ -26,6 +26,22 @@
     </header>
 
     <main>
+        <div class="cart_window">
+            <div class="cartWrapper">
+                <div class="wrap_content">
+                    <img class="img" src="images/bestel/sate-1.avif" alt="">
+                    <h1 class="text">satedagen satemenu <input type="number" name="hoeveel" min="1" ></h1><h1 class="pp">€ 9,95 </h1>
+                </div>
+            </div>
+
+            <div class="totaal">
+                <h1 id="prijs_totaal">Totaal prijs:</h1>
+            </div>
+            <div id="btn_bestel">
+                <button class="bestel">betalen</button>
+            </div>
+        </div>
+
             <div class="item2">
                 <div class="content">
                     <img class="eten" src="images/bestel/sate-1.avif" alt="">
@@ -143,5 +159,6 @@
     <footer>
         <?php //include '_footer.php'; ?>
     </footer>
+    <script src="JS/bestel/bestel.js"></script>
 </body>
 </html>

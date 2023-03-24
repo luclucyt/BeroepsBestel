@@ -28,13 +28,11 @@ main {
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     background-color: var(--Yellow);
-    color: var(--Black);
 }
 
 .tekst2 {
     width: 15vw;
     background-color: var(--Yellow);
-    color: var(--Black);
 }
 
 .tekst1, .tekst2, .prijs {
@@ -66,8 +64,75 @@ main {
     color: var(--Yellow);
 }
 
+.cart_window {
+    width: 500px;
+    height: 650px;
+    margin-top: 5.5vh;
+    margin-left: 61vw;
+    position: fixed;
+    border-radius: 10px;
+    background-color: var(--Yellow);
+}
 
+.bestel {
+    width: 7vw;
+    height: 7vh;
+    margin-left: 25.5vw;
+    margin-top: 82vh;
+    position: fixed;
+    transition: all 0.3s ease-in;
+    border: 1px solid var(--Blue);
+    background-color: var(--Blue);
+    color: var(--White);
+    border-radius: 10px;
+}
+
+#prijs_totaal {
+    margin-left: 2vw;
+    margin-top: 84vh;
+    color: black;
+    position: fixed;
+}
+
+.bestel:hover {
+    background-color: rgb(9, 38, 38);
+}
 
 .textWrapper {
     margin-top: -16vh;
 }
+
+.cartWrapper {
+    margin-top: 3vh;
+    position: fixed;
+    padding-left: 2vw;
+}
+
+.text {
+    margin-right: 13vw;
+    float: right;
+    margin-top: 2vh;
+    padding-left: 2vw;
+    font-size: 15px;
+}
+
+.img {
+    width: 5vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+strong {
+    color: black;
+}
+
+input {
+    width: 2vw;
+    border: none;
+}
+
+.pp {
+    margin-left: 23vw;
+    margin-top: -11.5vh;
+}
+
