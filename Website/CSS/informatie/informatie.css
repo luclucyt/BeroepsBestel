@@ -1,8 +1,45 @@
-#body{
-    background-image: url("../../images/_menu/lightMode.png");
+#body {
+  background-image: url("../../images/_menu/lightMode.png");
 }
 
-main{
-    /*verwijder als er iets in de main staat*/
-    padding-top: 1px;
+main {
+  padding-top: 0;
+}
+
+#background-color {
+  background-color: rgb(14, 57, 56);
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+}
+
+main img {
+  width: 90%;
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#header {
+  margin: 0 20%;
+}
+
+#header h1 {
+  position: absolute;
+  top: 580px;
+  font-size: 62px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header p { 
+    position: absolute;
+    top: 680px;
+    width: 60%;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+    font-weight: 200;
 }

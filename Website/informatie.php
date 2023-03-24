@@ -26,8 +26,12 @@
     </header>
 
     <main>
-        <!-- Pauline -->
-        <!-- Pagina hierin AUB -->
+        <div id="background-color">.</div>
+        <img src="images/informatie/header.png" alt="website header">
+        <div id="header">
+            <h1>ROTTERDAM CENTRUM</h1>
+            <p>Restaurant De Beren Rotterdam-centrum is te vinden aan het Schouwburgplein in hartje Rotterdam. Dit maakt het de ideale locatie om te lunchen tijdens een dagje shoppen of te dineren voordat je naar de bioscoop gaat. In de zomermaanden kun je genieten van onze gerechten op het grote en gezellige terras.</p>
+        </div>
     </main>
 
     <footer>

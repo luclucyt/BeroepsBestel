@@ -30,7 +30,7 @@ if(darkMenu == false){
 
     addEventListener("scroll", function(){
 
-        if(this.window.scrollY > headerImgWidth){
+        if(this.window.scrollY > headerImgWidth && darkMenu == true){
             topspan.style.backgroundColor = "var(--Blue)";
             middelspan.style.backgroundColor = "var(--Blue)";
             bottomspan.style.backgroundColor = "var(--Blue)";
@@ -43,7 +43,17 @@ if(darkMenu == false){
     );
 }
 else{
-    topspan.style.backgroundColor = "var(--White)";
-    middelspan.style.backgroundColor = "var(--White)";
-    bottomspan.style.backgroundColor = "var(--White)";
+    addEventListener("scroll", function(){
+        
+        if(this.window.scrollY > headerImgWidth && darkMenu == true){
+            topspan.style.backgroundColor = "var(--Blue)";
+            middelspan.style.backgroundColor = "var(--Blue)";
+            bottomspan.style.backgroundColor = "var(--Blue)";
+        }
+        else{
+            topspan.style.backgroundColor = "var(--White)";
+            middelspan.style.backgroundColor = "var(--White)";
+            bottomspan.style.backgroundColor = "var(--White)";
+        }
+    });
 }

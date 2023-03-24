@@ -1,2 +1,6 @@
 admin||admin||admin@admin.admin||admin
+<<<<<<< HEAD
 let me do it for you||let me do it for you||letmedoitforyou@gmail.com||let me do it for you
+=======
+8572984521||gyvftfx@jfdh.nk||qawsedrftgyhujik@htfhm.com||EDRFTGYH
+>>>>>>> 2c183c1f9badfacd86b37448c7eeba17a872ce38
