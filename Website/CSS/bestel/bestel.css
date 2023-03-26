@@ -1,138 +1,92 @@
-body{
-    background-image: url("../../images/_menu/lightMode.png");
+main{
+    display: flex;
+    justify-content: space-between;
 }
-main {
-    min-height: 100%;
+
+.product-foto{
+    border-radius: 10px;
+    width: 35%;
+}
+
+.product-wrapper{
+    width: 50%;
+    display: flex;
+
+    margin: 1%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.tekst-wrapper{
     min-width: 100%;
-
 }
 
-.content {
-    padding-top: 2vh;
-}
-
-.eten {
-    width: 10vw;
-    height: 11vh;
-    margin-left: 15vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+.product-titel{
     background-color: var(--Yellow);
-    border-radius: 10px;
-}
 
-.tekst1 {
-    width: 20vw;
-    height: 4.5;
-    margin-left: 27vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
-    background-color: var(--Yellow);
-}
-
-.tekst2 {
-    width: 15vw;
-    background-color: var(--Yellow);
-}
-
-.tekst1, .tekst2, .prijs {
-    margin-left: 27vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
-    border-radius: 10px;
+    width: fit-content;
     padding: 1%;
-}
-
-.prijs{
-    margin-top: -57px;
-}
-
-.add {
-    height: calc(4vh + 2px);
-    border: none;
-    width: 134px;
-    margin-left: 35vw;
-    border-radius: 0px 10px 10px 0px !important;
-    margin-top: -62px;
-    position: absolute;
-    background-color: var(--Yellow);
-    border-left: 1px solid var(--Blue);
-    transition: all 0.3s ease-in;
-}
-.add:hover {
-    background-color: var(--Blue);
-    color: var(--Yellow);
-}
-
-.cart_window {
-    width: 500px;
-    height: 650px;
-    margin-top: 5.5vh;
-    margin-left: 61vw;
-    position: fixed;
     border-radius: 10px;
-    background-color: var(--Yellow);
+
+    font-size: larger;
+
+    margin-left: 5%;
 }
 
-.bestel {
-    width: 7vw;
-    height: 7vh;
-    margin-left: 25.5vw;
-    margin-top: 82vh;
-    position: fixed;
-    transition: all 0.3s ease-in;
-    border: 1px solid var(--Blue);
+.product-omschrijving{
+    background-color: var(--Yellow);
+
+    width: 80%;
+
+    padding: 1%;
+    border-radius: 10px;
+
+    font-size: larger;
+
+    margin-left: 6%;
+    margin-top: 2.7%;
+}
+
+.product-buy-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 6%;
+
+    background-color: var(--Yellow);
+    margin-top: 2.7%;
+
+    padding: 1%;
+
+    border-radius: 10px;
+}
+
+.product-prijs{
+    width: fit-content;
+
+    background-color: var(--Yellow);
+    border-radius: 10px;
+
+    padding: 1%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.product-addButton{
     background-color: var(--Blue);
     color: var(--White);
     border-radius: 10px;
+
+    width: 50%;
+    padding: 1%;
+
+    border: none;
+
+    transition: all 0.3s ease-in;
+    cursor: pointer;
 }
 
-#prijs_totaal {
-    margin-left: 2vw;
-    margin-top: 84vh;
-    color: black;
-    position: fixed;
-}
-
-.bestel:hover {
+.product-addButton:hover{
     background-color: rgb(9, 38, 38);
 }
-
-.textWrapper {
-    margin-top: -16vh;
-}
-
-.cartWrapper {
-    margin-top: 3vh;
-    position: fixed;
-    padding-left: 2vw;
-}
-
-.text {
-    margin-right: 13vw;
-    float: right;
-    margin-top: 2vh;
-    padding-left: 2vw;
-    font-size: 15px;
-}
-
-.img {
-    width: 5vw;
-    height: auto;
-    border-radius: 10px;
-}
-
-strong {
-    color: black;
-}
-
-input {
-    width: 2vw;
-    border: none;
-}
-
-.pp {
-    margin-left: 23vw;
-    margin-top: -11.5vh;
-}
-
