@@ -39,7 +39,7 @@
 
                     <div class="product-buy-wrapper">
                         <p class="product-prijs">€9,95 per stuk</p>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('SATÉDAGEN SATÉMENU',9.95,'sate-1.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
 
                     <div class="product-buy-wrapper">
                         <p class="product-prijs">€13,95 per stuk</p>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('CLASSIC BURGERMENU',13.95,'burger.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
 
                     <div class="product-buy-wrapper">
                         <p class="product-prijs">€9,95 per stuk</p>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('CARPACCIO',9.95,'carpacio.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€16,95 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('FISH & CHIPS VEGAN',16.95,'fish.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€9,95 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('LOADED FRIES FRIKANDEL SPECIAAL',9.95,'loaded.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€10,50 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('COMBIDEAL KIDS',10.50,'kinder.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€49,95 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('SATÉ BOX',49.95,'sate-2.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€8,95 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('BITTERBALLEN',8.95,'biterbal.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€2,50 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('FUNKY NUTS BROWNIE BAR',2.50,'brownie.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
 
                     <div class="product-buy-wrapper">
                         <div class="product-prijs">€11,25 per stuk</div>
-                        <button class="product-addButton">BESTEL</button>
+                        <button class="product-addButton" onclick="add('HEINEKEN 6-PACK',11.25,'six pack.avif')" >BESTEL</button>
                     </div>
                 </div>
             </div>
@@ -193,26 +193,8 @@
 
         <div class="cart-wrapper">
             <div class="cart-main-product-wrapper">
-
-                <div class="cart-item-wrapper">
-                    <div class="cart-item-info-wrapper">
-                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
-                        <div>
-                            <h1 class="cart-item-name">satedagen satemenu</h1>
-
-                            <div class="cart-item-amount-wrapper">
-                                <label for="hoeveel">Hoeveelheid:</label>
-                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cart-item-price-wrapper">
-                        <h1 class="cart-item-price">€ 9,95</h1>
-                        <button class="cart-item-delete">X</button>
-                    </div>
-                </div>
             </div>
+                
             <div class="cart-total-wrapper">
                 <h1 id="prijs-totaal">Totaal prijs:</h1>
                 <button class="cart-bestel">betalen</button>
