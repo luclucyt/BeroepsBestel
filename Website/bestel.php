@@ -191,21 +191,853 @@
         </div>
 
 
-        <div class="cart_window"> test
-            <!--  <div class="cartWrapper">
-                  <div class="wrap_content">
-                      <img class="img" src="images/bestel/sate-1.avif" alt="">
-                      <h1 class="text">satedagen satemenu <input type="number" name="hoeveel" min="1" ></h1><h1 class="pp">€ 9,95 </h1>
-                  </div>
-              </div>
+        <div class="cart-wrapper">
+            <div class="cart-main-product-wrapper">
 
-              <div class="totaal">
-                  <h1 id="prijs_totaal">Totaal prijs:</h1>
-              </div>
-              <div id="btn_bestel">
-                  <button class="bestel">betalen</button>
-              </div>-->
+                <div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div>
+                <div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div><div class="cart-item-wrapper">
+                    <div class="cart-item-info-wrapper">
+                        <img class="cart-item-img" src="images/bestel/sate-1.avif" alt="">
+                        <div>
+                            <h1 class="cart-item-name">satedagen satemenu</h1>
+
+                            <div class="cart-item-amount-wrapper">
+                                <label for="hoeveel">Hoeveelheid:</label>
+                                <input type="number" name="hoeveel" min="1" class="cart-item-amount" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-price-wrapper">
+                        <h1 class="cart-item-price">€ 9,95</h1>
+                        <button class="cart-item-delete">X</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-total-wrapper">
+                <h1 id="prijs-totaal">Totaal prijs:</h1>
+                <button class="cart-bestel">betalen</button>
+            </div>
         </div>
+
+
 
     </main>
 
