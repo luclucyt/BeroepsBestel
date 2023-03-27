@@ -1,8 +1,3 @@
-function add(naam, prijs, foto) {
-    let cartWrapper = document.getElementsByClassName("cartwrapper");
-
-
-
-
-
+function add(naam, prijs, img) {
+    let cart_template = ""
 }
