@@ -2,7 +2,6 @@ let totaalPrijs = 0
 
 function add(naam, prijs, foto) {
 
-}
     let cartTemplate = '<div class="cart-item-wrapper"><div class="cart-item-info-wrapper"><img class="cart-item-img" src="images/bestel/'+ foto + '" alt=""><div><h1 class="cart-item-name">' + naam + '</h1><div class="cart-item-amount-wrapper"><label for="hoeveel">Hoeveelheid:</label><input type="number" name="hoeveel" min="1" class="cart-item-amount" value="1"></div></div></div><div class="cart-item-price-wrapper"><h1 class="cart-item-price">€ ' + prijs + '</h1><button class="cart-item-delete" onclick="remove(' + prijs +')">X</button></div></div>'
     let cartMainWrapper = document.getElementsByClassName('cart-main-product-wrapper')[0]
 
@@ -14,8 +13,7 @@ function add(naam, prijs, foto) {
     let cartTotaalPrijs = totaalPrijs.toFixed(2)
     prijs_totaal.innerHTML = 'Totaal prijs: € ' + cartTotaalPrijs
 
-    let cartWrapper = document.getElementsByClassName("cartwrapper");
-    let cartTemplate = '<div class="cart-item-wrapper"><div class="cart-item-info-wrapper"><img class="cart-item-img" src="images/bestel/'+ foto + '" alt=""><div><h1 class="cart-item-name">' + naam + '</h1><div class="cart-item-amount-wrapper"><label for="hoeveel">Hoeveelheid:</label>input type="number" name="hoeveel" min="1" class="cart-item-amount"></div></div></div><div class="cart-item-price-wrapper"><h1 class="cart-item-price">€ ' + prijs + '</h1><button class="cart-item-delete">X</button></div></div>'
+
 
     let cartItemDeleteBTN = document.getElementsByClassName('cart-item-delete')
 
@@ -50,21 +48,6 @@ function add(naam, prijs, foto) {
                 prijs_totaal.innerHTML = 'Totaal prijs: € ' + cartTotaalPrijs
             }
         })
-}
-
-
-function remove(prijs) {
-    let prijs_totaal = document.getElementById('prijs-totaal')
-
-    //recalculate the total price
-    totaalPrijs = 0
-    let cartItemPriceArray = document.getElementsByClassName('cart-item-price')
-    for (let i = 0; i < cartItemPriceArray.length; i++) {
-        let cartItemPriceValue = cartItemPriceArray[i].innerHTML.replace('€ ', '')
-        totaalPrijs += parseFloat(cartItemPriceValue)
-
-        let cartTotaalPrijs = totaalPrijs.toFixed(2)
-        prijs_totaal.innerHTML = 'Totaal prijs: € ' + cartTotaalPrijs
     }
 }
 
