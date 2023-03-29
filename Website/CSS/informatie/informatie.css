@@ -34,21 +34,21 @@ p {
 
 #header h1 {
   position: absolute;
-  top: 580px;
+  top: 82vh;
   font-size: 62px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#header p { 
-    position: absolute;
-    top: 680px;
-    width: 60%;
+#header p {
+  position: absolute;
+  top: 93vh;
+  width: 60%;
 }
 
 #contact {
   position: absolute;
-  top: 950px;
+  top: 130vh;
   margin: 0 0 0 20%;
 }
 
@@ -59,7 +59,7 @@ p {
 
 #cards {
   position: absolute;
-  top: 1150px;
+  top: 150vh;
   display: grid;
   grid-template-columns: 29vw 29vw;
   left: 50%;
@@ -97,7 +97,7 @@ p {
   text-decoration: underline;
 }
 
-#reserveer-card:hover{
+#reserveer-card:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
