@@ -26,7 +26,7 @@
     </header>
 
     <main>
-        <div id="background-color">.</div>
+        <div id="background-color"></div>
         <img src="images/informatie/header.png" alt="website header">
         <div id="header">
             <h1>ROTTERDAM CENTRUM</h1>
