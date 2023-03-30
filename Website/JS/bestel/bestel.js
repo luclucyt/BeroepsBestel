@@ -20,7 +20,6 @@ function add(naam, prijs, foto) {
     //remove the product from the cart
     for (let i = 0; i < cartItemDeleteBTN.length; i++) {
         cartItemDeleteBTN[i].addEventListener('click', function() {
-            console.log(this.parentNode.parentNode)
             this.parentNode.parentNode.remove()
         })
     }
@@ -34,8 +33,6 @@ function add(naam, prijs, foto) {
             let cartItemPrice = document.getElementsByClassName('cart-item-price')[i]
 
             cartItemPrice.innerHTML = '€ ' + (prijs * cartItemAmountValue).toFixed(2)
-
-
 
             //recalculate the total price
             totaalPrijs = 0

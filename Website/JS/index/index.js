@@ -11,22 +11,18 @@ let darkMenu;
 
 if(darkModeCookie.includes("true")){
     darkMenu = true;
-    console.log(darkModeCookie);
-    console.log("menu shoud be: true, altus dark");
-    console.log(darkMenu);
-    console.log("");
-
 }
 else{
     darkMenu = false;
-    console.log(darkModeCookie);
-    console.log("darkmenu = true");
-    console.log(darkMenu);
-    console.log("");
 }
 
+
+topspan.style.backgroundColor = "var(--White)";
+middelspan.style.backgroundColor = "var(--White)";
+bottomspan.style.backgroundColor = "var(--White)";
+
+
 if(darkMenu == false){
-    console.log("darkMenu is on, althus menu is white");
 
     addEventListener("scroll", function(){
 

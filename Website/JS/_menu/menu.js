@@ -34,7 +34,6 @@ function ChangeMenuState(){
     if(isOpen == 0){ 
         //NOT OPEN so we open it
         menu.style.width = "20%";
-        //menuIcon.src = "images/_menu/closeMenu.png";
 
         menuIcon.style.marginLeft = "2%";
         menuIcon.style.marginTop = "2%";
@@ -61,8 +60,6 @@ function ChangeMenuState(){
     }else{
         //OPEN so we close it
         menu.style.width = "0px";
-        //menuIcon.src = "images/_menu/openMenu.png";
-
 
         menuIcon.style.marginLeft = "1%";
         menuIcon.style.marginTop = "1.5%";
@@ -86,13 +83,11 @@ function ChangeMenuState(){
             MiddleSpan.style.backgroundColor = "var(--Blue)";
             BottomSpan.style.backgroundColor = "var(--Blue)";
 
-            console.log("darkmode is true, so the menu is dark");
         } else if(darkmode == false){
             TopSpan.style.backgroundColor = "var(--White)";
             MiddleSpan.style.backgroundColor = "var(--White)";
             BottomSpan.style.backgroundColor = "var(--White)";
 
-            console.log("darkmode is false, so the menu is light");
         }
 
         isOpen = 0;

@@ -1,4 +1,29 @@
-<!-- LEAVE THIS ONE HERE, IT WONT STYLE WITHOUT. IDK WHY -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- LEAVE THIS ONE HERE, IT WONT STYLE WITHOUT. IDK WHY -->
 <div class="reviewWrapper">
     <div class="name"><h1>Small note:</h1></div>
     <div class="starWrapper">
@@ -14,118 +39,117 @@
 
 
        
-<div class="reviewWrapper">
-    <div class="name"><h1>Admin:</h1></div>
-    <div class="starWrapper">
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-    </div>
-    <div class="review">test</div>
-</div> 
+ 
         
         
-<div class="reviewWrapper">
-    <div class="name"><h1>Admin:</h1></div>
-    <div class="starWrapper">
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-    </div>
-    <div class="review">test</div>
-</div> 
+ 
         
         
-<div class="reviewWrapper">
-    <div class="name"><h1>Admin:</h1></div>
-    <div class="starWrapper">
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-    </div>
-    <div class="review">test</div>
-</div> 
+ 
         
         
-<div class="reviewWrapper">
-    <div class="name"><h1>Admin:</h1></div>
-    <div class="starWrapper">
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-    </div>
-    <div class="review">test</div>
-</div> 
+ 
         
         
-<div class="reviewWrapper">
-    <div class="name"><h1>Admin:</h1></div>
-    <div class="starWrapper">
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-        <div class="star">
-            <img src="images/reviews/Gstar.svg" alt="star" class="star">
-        </div>
-    </div>
-    <div class="review">test</div>
-</div> 
+ 
         
         
+ 
+        
+                                                
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+                        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+                                
+ 
+        
+        
+ 
+        
+        
+ 
+        
+                                
+ 
+        
+        
+ 
+        
+        
+ 
+        
+                
+ 
+        
+        
+ 
+        
+                                        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+        
+ 
+        
+                                        
+ 
+        
+        
+ 
+        
+                        
+ 
+        
+                

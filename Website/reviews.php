@@ -19,6 +19,7 @@
     <script src="JS/_menu/darkmode.js" defer></script>
     <script src="JS/login/login.js" ></script>
     <script src="JS/review/review.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body id="body">
@@ -28,7 +29,7 @@
 
     <main>
         <div id="reviewsWrapper">
-            <?php 
+            <?php
                 $data = file_get_contents("data/reviews/reviews.txt");
                 echo ($data)
             ?>
@@ -44,11 +45,66 @@
                 <input type="number" name="reviewRating" id="reviewRating" min="1" max="5" required value="5"><br>
 
                 <label for="reviewText">Review:</label><br>
-                <textarea name="reviewText" id="reviewText" cols="30" rows="10" required value="test"></textarea>
+                <textarea name="reviewText" id="reviewText" cols="30" rows="10" required placeholder="Plaats je review hier..."></textarea>
 
                 <input type="submit" value="Verstuur" name="reviewForm" onsubmit="document.location.href='reviews.php'">
             </form>
         </div>
+
+
+        <?php
+        if(isset($_COOKIE["naam"]) == "admin"){
+            echo "
+                <script>
+                    let reviews = document.getElementsByClassName('reviewWrapper');
+                    
+                    for(let i = 1; i < reviews.length; i++){
+                        let review = reviews[i];
+                        review.innerHTML = `<button class='remove-review'>DELETE REVIEW</button>` + review.innerHTML
+                    }
+                    
+                    let reviewsRemoveBTN = document.getElementsByClassName('remove-review');
+                    for (let i = 0; i < reviewsRemoveBTN.length; i++){
+                        let reviewRemoveBTN = reviewsRemoveBTN[i];
+                        
+                        reviewRemoveBTN.addEventListener('click', function (){
+                            this.parentElement.remove();
+                                                
+                            const removeElements = document.querySelectorAll('.remove-review');
+                            removeElements.forEach((element) => {
+                              element.remove();
+                            });
+                            
+                            let reviewsWrapper = document.getElementById('reviewsWrapper').innerHTML
+                            console.log(reviewsWrapper);
+                            
+                            $.ajax({
+                            url: 'reviews.php',
+                            type: 'POST',
+                            data: {string: reviewsWrapper}
+                            })
+                            
+                            window.location.href='';
+                        })
+                    }
+                </script>";
+        }
+
+        if(isset($_POST['string'])){
+            //calls the UpdateReviews
+            UpdateShop($_POST['string']);
+        }
+
+        function UpdateShop($reviewcode): void
+        {
+            $myFile = fopen("data/reviews/reviews.txt", "a");
+
+            //emptys the file
+            file_put_contents("data/reviews/reviews.txt", "");
+            //write the sting in
+            fwrite($myFile, $reviewcode);
+        }
+        ?>
     </main>
 
     <footer>

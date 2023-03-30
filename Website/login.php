@@ -62,8 +62,6 @@
 
             <?php 
             error_reporting(0);
-            global $test;
-            $test = "test";
 
             //signup
             if(isset($_POST['name']) && isset($_POST['password']) && isset($_POST['email']) && isset($_POST['address'])){
@@ -92,6 +90,8 @@
                 //write the user data to the file
                 $file = fopen("data/login/data.txt", "a");
                 fwrite($file, $nameInput . "||" . $passwordInput . "||" . $emailInput . "||" . $addressInput . "\n");
+
+                echo "<script>window.location.href='';</script>";
             }
 
             //login
@@ -113,21 +113,18 @@
                         echo "<p id='info'>Inloggen Succesvol, welkom {$userArray[0]} </p><br><br><br>";
                         echo 
                         "<script>
-
                             naam = '{$userArray[0]}';
                             wachtwoord = '{$userArray[1]}';
                             email = '{$userArray[2]}';
                             adres = '{$userArray[3]}';
-                            logedin = true;
                             
                             logedin = true;
 
-                            document.cookie = 'naam=' + naam + ';'
-                            document.cookie = 'wachtwoord=' + wachtwoord + ';'
-                            document.cookie = 'email=' + email + ';'
-                            document.cookie = 'adres=' + adres + ';'
-                            document.cookie = 'logedin=' + logedin + ';'
-                            alert(document.cookie)
+                            document.cookie = 'naam=' + naam + ';  expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;'; 
+                            document.cookie = 'wachtwoord=' + wachtwoord + '; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;';
+                            document.cookie = 'email=' + email + '; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;';
+                            document.cookie = 'adres=' + adres + '; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;';
+                            document.cookie = 'logedin=' + logedin + '; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/;';
                         </script>";
 
                         if($nameInput == "admin"){
