@@ -26,12 +26,12 @@
     </header>
     <main>
         <div id="headerWrapper">
-            <a href="/images/eetMenu/menu.pdf" target="_blank" id="headerImgWrapper">
+            <a href="./images/eetMenu/menu.pdf" target="_blank" id="headerImgWrapper">
                 <img src="images/eetMenu/menu.jpeg" alt="menu" id="headerimg">
             </a>
         </div>
         <div id="titelWrapper">
-            <h1 id="titel">Download ons menu hier: <a href="/images/eetMenu/menu.pdf" target="_blank" download="de Beren Menu">Download</a></h1>
+            <h1 id="titel">Download ons menu hier: <a href="./images/eetMenu/menu.pdf" target="_blank" download="de Beren Menu">Download</a></h1>
         </div>
 
         <div id="subHeaderWrapper">
