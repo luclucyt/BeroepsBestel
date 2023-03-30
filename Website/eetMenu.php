@@ -12,7 +12,7 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/_menu/menu.css">
-    <link rel="stylesheet" href="CSS/eetMenu/eetmenu.css">
+    <link rel="stylesheet" href="CSS/eetMenu/eetMenu.css">
     
     <!-- JS -->
     <script src="JS/_menu/menu.js" defer></script>
