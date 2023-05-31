@@ -39,7 +39,7 @@
             <h1>Plaats een review:</h1>
             <form action="reviews.php" method="POST">
                 <label for="reviewName">Naam:</label><br>
-                <input type="text" name="reviewName" id="reviewName" required onkeydown="return false;" autocomplete="off"><br>
+                <input type="text" name="reviewName" id="reviewName" required onkeydown="return false;" autocomplete="off" value="<?php echo $_COOKIE["naam"] ?>"><br>
 
                 <label for="reviewRating">Rating:</label><br>
                 <input type="number" name="reviewRating" id="reviewRating" min="1" max="5" required value="5"><br>
@@ -56,13 +56,6 @@
         if(isset($_COOKIE["naam"]) == "admin"){
             echo "
                 <script>
-                    let reviews = document.getElementsByClassName('reviewWrapper');
-                    
-                    for(let i = 1; i < reviews.length; i++){
-                        let review = reviews[i];
-                        review.innerHTML = `<button class='remove-review'>DELETE REVIEW</button>` + review.innerHTML
-                    }
-                    
                     let reviewsRemoveBTN = document.getElementsByClassName('remove-review');
                     for (let i = 0; i < reviewsRemoveBTN.length; i++){
                         let reviewRemoveBTN = reviewsRemoveBTN[i];
@@ -78,6 +71,9 @@
                             let reviewsWrapper = document.getElementById('reviewsWrapper').innerHTML
                             console.log(reviewsWrapper);
                             
+                    
+                    
+                            
                             $.ajax({
                             url: 'reviews.php',
                             type: 'POST',
@@ -86,6 +82,12 @@
                             
                             window.location.href='';
                         })
+                    }
+                    
+                    let reviews = document.getElementsByClassName('reviewWrapper');
+                    for(let i = 1; i < reviews.length; i++){
+                        let review = reviews[i];
+                        review.innerHTML = `<button class='remove-review'>DELETE REVIEW</button>` + review.innerHTML
                     }
                 </script>";
         }
@@ -104,6 +106,17 @@
             //write the sting in
             fwrite($myFile, $reviewcode);
         }
+        ?>
+        <?php
+            if (isset($_COOKIE["naam"]) != "admin") {
+                echo "
+                <script>
+                    removeElements = document.querySelectorAll('.remove-review');
+                    removeElements.forEach((element) => {
+                        element.remove();
+                    });
+                </script>";
+            }
         ?>
     </main>
 
